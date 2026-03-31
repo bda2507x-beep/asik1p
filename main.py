@@ -3,6 +3,8 @@ Customer_name = input( "Enter your name: " )
 Product_name = input( "Enter product name : " )
 Price_penu_KZ= float(input( "Enter price per unit (KZT): " ))
 Quantity = int(input("Enter quantity: "))
+discount = float(input("Enter discount percentage: "))
+f_total = 0
 
 # task 2
 subtotal = Price_penu_KZ * Quantity
@@ -29,6 +31,5 @@ print ("=" * 30 )
 print("")
 print("Discount applied:", subtotal > 5000)
 print("Paid more than 3000:", f_total > 3000)
-
 
 
